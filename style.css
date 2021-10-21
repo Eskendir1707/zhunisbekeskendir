@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  background: linear-gradient(#e66465, #9198e5);
+font-family: 'Noto Sans Mono', monospace;
+}
+
+.center{
+  text-align: center;
+}
+#title {
+  color: black;
+}
+
+#description {
+  font-size: 1.5em;
+}
+#survey-form {
+  border: 1px solid black;
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: left;
+}
+#name-label {
+  padding-right: 10px;
+}
+#name, #email, #number, #dropdown{
+ width: 500px;
+  margin-bottom: 10px;
+}
+.list {
+  margin-bottom: 10px;
+}
+}
+textarea {
+width: 100%;
+}
+#btn-div{
+  text-align:center;
+  width: 100%;
+ margin: 10px;
+}
+#submit {
+  font-size: 2em;
+  color: white;
+  background-color:blue;
+width: 80%
+}
+

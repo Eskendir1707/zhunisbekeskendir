@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <title>Travel Surfey From</title>
+</head>
+
+<body>
+
+<div>
+<h1 class="center" id="title">Travel Survey From</h1>
+
+<p class="center" id="description">Thank You for taking the time to response for a Survey about Travelling  </p>
+
+<form id="survey-form" >
+  <label for="name" id="name-label">Name</label><br>
+  <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+  </br>
+  
+  <label for="email" id="email-label">Email</label><br>
+  <input id="email" type="email" placeholder="Enter your email" required>
+  </br>
+
+  <label for="number" id="number-label">Age</label><br>
+  <input type="number" id="number" placeholder="Enter your age">
+  <br/>
+
+ <label for="join-question">With whom, Do you travel most often</label><br>
+  <select name="join-quesion" id="dropdown" list="join-list">
+    <option  value="select" >Select your answer</option> 
+    <option  value="family" >Family</option> 
+    <option value="friends" >Friends</option>
+    <option value="colleagues" >Colleagues</option>
+    <option value="alone">Alone</option> 
+  </select>
+  </br>
+
+  <label for="join-question">What's your employment status?</label><br>
+  <select name="join-quesion" id="dropdown" list="join-list">
+    <option  value="student" >Student</option> 
+    <option value="employed" >Employed</option>
+    <option value="self-employed" >Self-employed</option>
+    <option value="unemployed">Unemployed</option> 
+    <option value="Retired" >Retired</option>
+    <option value="Other" >Other</option>
+  </select>
+  </br>
+
+<fieldset class="list">
+    <legend>What's you gender?</legend>
+    <input type="radio" name="coder" value="yes"> Yes<br>
+    <input type="radio" name="coder" value="no"> No<br>
+  </fieldset>
+<br>
+
+<fieldset  class="list">
+    <legend>Where would like you to travel this year?</legend>
+    <label> <input type="checkbox" name="europe"  value="europe">Europe</label><br>
+    <label> <input type="checkbox" name="asia" value="asia">Asia</label><br>
+    <label> <input type="checkbox" name="Africa" value="Afrika">Africa</label><br>
+    <label> <input type="checkbox" name="Australia" value="Australia">Australia</label><br>
+    <label> <input type="checkbox" name="North America" value="North America">North America</label><br>
+    <label> <input type="checkbox" name="South America" value="South America">South America</label>
+  </fieldset> 
+<br>
+
+<label for="comments ">Any  questions or suggestions?</label></br>
+  <center><textarea name="comments " id="comments " cols="120" rows="10" placeholder="Enter your comment here..." ></textarea></center>
+  </br>
+
+  <div id="btn-div">
+    <button id="submit">Submit</button>
+  </div>
+</body>
+</html>
